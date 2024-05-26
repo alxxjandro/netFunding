@@ -1,0 +1,164 @@
+
+.cajitaRegister {
+    opacity: 0;
+    transition: opacity .2s ease, z-index 0.2s ease; 
+    position: fixed; 
+    z-index: -1; 
+}
+
+.cajitaRegister.visible {
+    opacity: 1;
+    z-index: 3;
+}
+
+.formatoInv,
+.formatoEmp{
+    opacity: 0;
+}
+
+#btnInver.hidden{
+    opacity: 0;
+}
+
+#btnEmpre.hidden{
+    opacity: 0;
+}
+
+.hidden{
+    opacity: 1;
+}
+
+.contenidoRegister {
+    position: relative;
+    width: 100vw;
+}
+
+.btnContainer{
+    display: flex;
+    justify-content: center;
+    transition: opacity .2s ease;
+}
+
+.btnContainer:hover{
+    opacity: .7;
+}
+
+.btnContainer:active{
+    opacity: .4;
+}
+
+.btnReg{
+    padding: .5em 1em;
+    border-radius: 1em;
+    background-color: #27374D;;
+    color: white;
+    border: none;
+}
+
+
+.seccionRegister {
+    z-index: 2;
+    top: 20vh;
+    left: 70vh;
+    width: 30vw;
+    height: 60vh;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 2rem 3rem;
+
+}
+
+.registroBotonesDeArriba{
+    display: flex;
+    justify-content: space-between;
+}
+
+.h1Text{
+    max-width: 14rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.NormalText{
+    font-size: .7rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: .7rem;
+}
+label span {
+    color: red;
+}
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: .4rem;
+    border: 2px solid #000000;
+    border-radius: 6px;
+    border: solid 1px;
+    font-size: .8rem;
+}
+
+.difuminado{
+    position: absolute;
+    background-color: #DDE6ED;
+    z-index: 1;
+    top: 0vw;
+    left: 0px;
+    opacity: 0.9;
+    width: 100vw;
+    height: 100vh;
+}
+
+.headerRegister{
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+    justify-content: space-around;
+}
+
+.xButton{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.botonesRegister{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.botonesRegister button{
+    z-index: 4;
+    padding: 1.6em .5em;
+    background-color: #0E1F3E;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: .3rem;
+    transition: opacity .2s ease;
+}
+
+.botonesRegister button:hover{
+    opacity: .8;
+}
+
+.botonesRegister button:active{
+    opacity: .6;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    position: absolute;
+    top: 6rem;
+}

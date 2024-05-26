@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat',Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #DDE6ED;
+}
+
+.headerTextTitle,
+.logoHeader{
+    cursor: pointer;
+}
+
+.header{
+    position:fixed;
+    width: 100vw;
+    z-index: 2;
+    background-color: #DDE6ED;
+    display: flex;
+    justify-content: space-around;
+    height: 14vh;
+}
+
+.header-title{
+    background-color: #DDE6ED;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+
+}
+
+.header-mid-buttons button{
+    transition: opacity .4s ease;
+    transition: color .2s ease;
+}
+
+.header-mid-buttons button:hover{
+    opacity: .5;
+}
+
+.header-mid-buttons button:active{
+    color: rgb(73, 73, 73);
+}
+
+.logoHeader{
+    background-color: #DDE6ED;
+    height: 1.2rem;
+    margin-bottom: 1px;
+    padding-right: 2px;
+}
+
+.header-mid-buttons,
+.header-register{
+    background-color: #DDE6ED;
+    display: flex;
+    align-items: center;
+}
+
+.header-mid-buttons button,
+.header-register button{
+    background-color: #DDE6ED;
+    font-size: 1rem;
+    border: none;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.header-register button{
+    transition: opacity .3s ease;
+}
+
+.header-register button:hover{
+    opacity: .7;
+}
+
+.header-register button:active{
+    opacity: .4;
+}
+
+.header-register button,
+.registrate{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: #27374D;
+    color: white;
+    border-radius: 1em;
+}
+
+.title,
+.card,
+.seccionUnoCards{
+    background-color: #DDE6ED;
+}
+
+.Emprendedor{
+    font-weight: bold;
+}
